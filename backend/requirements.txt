@@ -1,0 +1,15 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-dotenv>=1.0
+langchain>=0.3
+langgraph>=0.2
+langchain-openai>=0.2
+langchain-community>=0.3
+langchain-chroma>=0.1
+langchain-huggingface>=0.1
+chromadb>=0.5
+sentence-transformers>=3.0
+# 评估环节（第 4 周启用，可先不装）
+ragas>=0.2
+datasets>=2.20
